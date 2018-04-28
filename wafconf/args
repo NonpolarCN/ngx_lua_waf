@@ -1,9 +1,10 @@
 \.\./
+\.\\\\
 \:\$
 \$\{
-select.+(from|limit)
+select.+(from|limit|having)
 (?:(union(.*?)select))
-having|rongjitest
+rongjitest
 sleep\((\s*)(\d*)(\s*)\)
 benchmark\((.*)\,(.*)\)
 base64_decode\(
